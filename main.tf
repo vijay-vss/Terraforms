@@ -99,3 +99,5 @@ resource "aws_instance" "myapp-server" {
         Name = "${var.env-prefix}-server"
     }
 }
+
+# this file is main.tf
