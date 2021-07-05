@@ -1,0 +1,11 @@
+# tf state file
+terraform.tfstate
+terraform.tfstate.backup
+
+
+# tf variables file
+terraform.tfvars
+
+# all ignored files
+.terraform.lock.hcl
+.terraform/
