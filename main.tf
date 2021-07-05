@@ -1,13 +1,3 @@
-provider "aws" {
-    region = "ap-south-1"
-}
-
-variable "vpc_cidr" {}
-variable "env-prefix" {}
-variable "subnet_one_cidr" {}
-variable "instance-type" {}
-variable "public-key-file" {}
-
 resource "aws_vpc" "myapp-vpc" {
     cidr_block = var.vpc_cidr
     tags = {
